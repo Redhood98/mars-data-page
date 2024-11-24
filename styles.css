@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: clearInterval;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+
+
+}
+.container{
+    text-align: center;
+}
+#marsImage{
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.data-panel{
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.data-panel h2{
+    margin-top: 0;
+}
